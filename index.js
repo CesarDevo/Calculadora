@@ -3,7 +3,7 @@ let mais = document.getElementById('plus');
 let input = document.getElementById('input');
 let x = 0;
 let y = 0;
-let soma = 0;
+let sum = 0;
 
 sete.addEventListener("click", () => {
   input.value = "7";
@@ -15,6 +15,6 @@ mais.addEventListener("click", () => {
 });
 
 function soma (x, y) {
-  soma = x + y;
+  sum = x + y;
   input.value = soma;
 }
